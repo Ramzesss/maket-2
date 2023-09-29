@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.header__navi {
+    background-image: url(img/headerbcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top__heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 28px;
+    padding-left: 28px;
+}
+
+.top__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.top__heading {
+    padding-right: 78px;
+    padding-bottom: 136px;
+}
+
+.top__label {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 23.961px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80.5%;
+    text-transform: uppercase;
+    width: 166px;
+    padding-top: 12px;
+}
+
+.nav__link {
+    padding-top: 48px;
+    text-decoration: none;
+    display: flex;
+    padding-right: 60px;
+    padding-bottom: 162px;
+    flex-wrap: wrap;
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+
+.top__search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-right: 141px;
+    padding-top: 38px;
+    padding-bottom: 204px;
+}
+
+.top__items {
+    display: flex;
+}
+
+.top__col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 71px;
+    padding-right: 204px;
+}
+
+.red__col {
+    border: 1px solid #DD2242;
+    width: 4px;
+    height: 100px;
+    background: #DD2242;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+}
+
+.white__col {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 2px;
+    height: 296px;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #FFF;
+}
+
+.top__num {
+    padding-top: 20px;
+}
+
+.top__name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130px;
+    text-transform: uppercase;
+    width: 627px;
+    padding-bottom: 47px;
+}
+
+.top__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    border: 1px solid  rgba(221, 34, 66, 1);
+    border-radius: 211px;
+    background: var(--Main-Red, #DD2242);
+    padding: 20px 60px;
+}
+
+.top__link:hover {
+    color: black;
+    background-color: #FFF;
+    transition: 0.8s;
+}
+
+.top__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 204px;
+    align-items: flex-end;
+}
+
+.top__img-col {
+    height: 131px;
+    padding-right: 262px;
+    padding-bottom: 44px;
+}
+
+.columns__column {
+    display: grid;
+    grid-template-columns: repeat(3, 210px);
+    gap: 198px;
+    padding-left: 71px;
+    padding-right: 128px;
+    height: 210px;
+    border: 1px solid #000;
+    opacity: 0.6;
+    background: #000;
+}
+
+.colunm__item {
+    padding: 41px 0 49px 0;
+    
+}
+
+
+.column__num {
+    color: #DD2242;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.column__name {
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 26.409px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.081px; /* 155.556% */
+}
+
+.column__text {
+    color: #939393;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.5px;
+}
+
+.top__img {
+    position: relative;
+}
+
+.top__link-play {
+    position: absolute;
+    top: 106px;
+    left: 186px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 1);
+    padding: 18px 17px;
+    display: none;
+}
+
+.top__img:hover .top__link-play {
+    display: flex;
+}
