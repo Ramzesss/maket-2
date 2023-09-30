@@ -320,3 +320,53 @@ img {
     transition: 0.8s;
 }
 
+
+
+.top__slide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/vool.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding-bottom: 886px;
+}
+
+.slide__img {
+    display: flex;
+    gap: 30px;
+}
+
+.slide__name {
+    color: var(--Blue---Background, #010A20);
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 75px */
+    padding-top: 127px;
+    padding-bottom: 44px;
+}
+
+.slide__item button {
+    border: 0;
+    background: transparent;
+}
+
+.btn__left {
+    padding-right: 33px;
+}
+.btn__rigth {
+    padding-left: 33px;
+}
