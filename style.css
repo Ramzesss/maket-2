@@ -138,7 +138,7 @@ img {
     font-family: DM Sans;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 150%; /* 30px */
     border: 0 solid  rgba(221, 34, 66, 1);
     border-radius: 211px;
@@ -232,7 +232,9 @@ img {
     display: flex;
 }
 
-
+.center__box {
+    
+}
 
 
 .center__info {
@@ -241,9 +243,14 @@ img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 160px;
+    padding-bottom: 95px;
     padding-top: 207px;
-    background: url(img/RoadOpacity.png), lightgray 50% / cover no-repeat;
+    background: url(img/RoadOpacity.png),
+    linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0.00) 100%),
+    var(--Blue---Background, #010A20); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+
 }
 
 .center__info-revers {
@@ -252,8 +259,13 @@ img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: url(img/SeaOpacity.png), lightgray 50% / cover no-repeat;
-
+    padding-top: 95px;
+    background: url(img/SeaOpacity.png),
+    linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0.00) 100%),
+    var(--Blue---Background, #010A20);
+    padding-bottom: 305px;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 
@@ -294,7 +306,7 @@ img {
     font-family: 'DM Sans';
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 150%; /* 27px */
     border: 0 solid rgba(221, 34, 66, 1);
     background-color: rgba(221, 34, 66, 1);
