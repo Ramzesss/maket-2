@@ -9,11 +9,6 @@ img {
     max-width: 100%;
 }
 
-.center {
-    padding-left: calc(50% - 581px);
-    padding-right: calc(50% - 581px);
-}
-
 .header__navi {
     background-image: url(img/headerbcg.png);
     background-repeat: no-repeat;
@@ -114,7 +109,7 @@ img {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.80);
     text-align: center;
-    font-family: DM Sans;
+    font-family: 'DM Sans';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -144,6 +139,8 @@ img {
     padding-right: 262px;
     padding-bottom: 44px;
 }
+
+
 
 .columns__column {
     display: grid;
@@ -194,7 +191,6 @@ img {
 
 .top__img {
     position: relative;
-    min-width: 417px;
 
 }
 
@@ -366,7 +362,6 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    padding-top: 201px;
 }
 
 .numbers__text {
@@ -382,6 +377,10 @@ img {
     width: 484px;
     margin: auto;
     
+}
+
+.slide__title {
+    padding-top: 201px;
 }
 
 .slide__info {
@@ -412,4 +411,69 @@ img {
     font-weight: 400;
     line-height: 28px;
     width: 340px;
+}
+
+.aside__info {
+    padding-top: 248px;
+    padding-bottom: 274px;
+    background: url(img/topleft.png) no-repeat,
+    url(img/bottomrighte.png) no-repeat;
+}
+
+.aside__title {
+    color: #000;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 119.048% */
+    width: 614px;
+    margin: auto;
+}
+
+.aside__subtitle {
+    color: var(--Paragraph-Dark, #6F7787);
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.5px;
+    width: 470px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 54px;
+}
+
+.aside__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.aside__link {
+    text-decoration: none;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    border: 0 solid rgba(221, 34, 66, 1);
+    background-color: rgba(221, 34, 66, 1);
+    border-radius: 50px;
+    padding: 16px 40px;
+    
+}
+
+
+
+.aside__link:hover {
+    color: black;
+    font-weight: 800;
+    background-color: rgb(129, 204, 129);
+    transition:  0.8s;
+    
 }
